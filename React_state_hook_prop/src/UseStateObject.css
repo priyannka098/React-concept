@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.update{
+    font-size: 20px;
+
+    padding:20px;
+    background-color: green;
+    color: white;
+}

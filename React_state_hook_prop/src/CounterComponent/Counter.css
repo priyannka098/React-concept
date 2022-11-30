@@ -1,0 +1,25 @@
+.counter{
+font-size: 60px;
+color: blue;
+}
+.counterbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+}
+.buttons{
+    margin:15px;
+   
+}
+.button-style{
+    font-size: 15px;
+    background-color: aqua;
+    
+    /* color: white; */
+    border-radius: 5px;
+    padding: 10px;
+
+
+}
