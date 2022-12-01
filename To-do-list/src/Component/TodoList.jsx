@@ -1,15 +1,19 @@
 import React from 'react';
-import './TodoList.css';
+import "./TodoList.css";
 
 function TodoList() {
 
 
   return (
     <>
-    <div className=" containers ">
-    <span>To Do Listhjnnm s</span>
-    <input type="text" placeholder='create a new to do'></input>
-    <button>Add</button>
+    <div className="outer-box">
+    <div className=" container ">
+    <span className="list">To Do List </span>
+    <div>
+    <input  className="input"type="text" placeholder='Create a new to do list'></input>
+    <button className="button">Add</button>
+    </div>
+    </div>
     </div>
 
     </> 

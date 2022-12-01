@@ -1,5 +1,31 @@
 .container{
-   background-color: grey;
-   width:auto;
-   height:30px; 
+   display: flex;
+   align-items: center;  /*  align the items vertically */
+   flex-direction: column;
+   background-color:grey;
+   width:900px;
+   height:250px; 
+
+}
+.outer-box{
+   display:flex;
+   /* align-items: center;  */
+   justify-content: center; 
+}
+.list{
+   font-weight: 700;
+   font-size: 25px;
+   color:rgb(4, 44, 44);
+   margin:20px;
+}
+.input{
+   height:30px;
+   width:400px;
+   
+}
+.button{
+height:36px;
+   width:90px;
+   color:rgb(4, 44, 44);
+   font-weight:600;
 }
