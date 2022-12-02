@@ -4,7 +4,10 @@
    flex-direction: column;
    background-color:grey;
    width:900px;
-   height:250px; 
+   min-height: 200px;
+   max-height: 500px;
+
+   overflow-y: scroll;
 
 }
 .outer-box{
@@ -28,4 +31,32 @@ height:36px;
    width:90px;
    color:rgb(4, 44, 44);
    font-weight:600;
+}
+.rowdata{
+   display:flex;
+   flex-direction:row;
+   background-color:lightgray;
+   height:32px;
+   width:400px;
+   margin-top: 20px;
+}
+.Delete{
+   height:32px;
+   width:90px;
+   color:red;
+   font-weight:600;
+
+}
+.DeleteAll{
+   margin-top: 20px;
+   height:32px;
+   width:90px;
+   color:blue;
+   font-weight:600;
+
+}
+.listdata{
+   color:blue;
+   height:30px;
+   width:400px;
 }
